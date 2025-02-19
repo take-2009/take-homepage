@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テイク - 安心して住める住まいづくり</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .main-section {
+            text-align: center;
+            padding: 50px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        テイク - 安心して住める住まいづくり
+    </header>
+    <section class="main-section">
+        <h1>住まいの防水・塗装はお任せください！</h1>
+        <p>地域密着で迅速対応、安心して任せられる施工を提供します。</p>
+        <a href="#" class="btn">お問い合わせはこちら</a>
+    </section>
+    <section class="content">
+        <h2>施工例</h2>
+        <p>これまでに施工した事例の一部をご紹介します。</p>
+        <div class="gallery">
+            <img src="example1.jpg" alt="施工例1">
+            <img src="example2.jpg" alt="施工例2">
+            <img src="example3.jpg" alt="施工例3">
+            <img src="example4.jpg" alt="施工例4">
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 テイク - すべての権利を保有。
+    </footer>
+</body>
+</html>
